@@ -1,3 +1,4 @@
+versi Godot 3.5.3
 # Jawaban Tutorial 2
 ## Latihan Playtest
 - Apa saja pesan log yang dicetak pada panel Output? --> Platform initialized
