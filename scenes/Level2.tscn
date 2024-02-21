@@ -1,0 +1,171 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scenes/ObjectiveArea2.gd" type="Script" id=1]
+[ext_resource path="res://scenes/ObjectiveArea.gd" type="Script" id=2]
+[ext_resource path="res://scenes/StonePlatform.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/BlueShip.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/BlueShip.gd" type="Script" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 77, 82 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 345, 132 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 248, 132 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 59, 132 )
+
+[node name="Level2" type="Node2D"]
+
+[node name="BlueShip" parent="." instance=ExtResource( 4 )]
+position = Vector2( 97, 493 )
+script = ExtResource( 5 )
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2( 28, 627 )
+
+[node name="StonePlatform2" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 90, 0 )
+
+[node name="StonePlatform" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 19, 1 )
+
+[node name="StonePlatform3" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 231, 0 )
+
+[node name="StonePlatform4" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 161, 0 )
+
+[node name="StonePlatform5" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 367, -327 )
+
+[node name="StonePlatform6" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 296, -326 )
+
+[node name="StonePlatform7" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 508, -327 )
+
+[node name="StonePlatform8" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 438, -327 )
+
+[node name="StonePlatform9" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 368, -105 )
+
+[node name="StonePlatform10" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 297, -104 )
+
+[node name="StonePlatform13" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 297, -33 )
+
+[node name="StonePlatform14" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 300, -2 )
+
+[node name="StonePlatform15" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( -50, -199 )
+
+[node name="StonePlatform16" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( -50, -128 )
+
+[node name="StonePlatform17" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( -49, -64 )
+
+[node name="StonePlatform19" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( -51, -331 )
+
+[node name="StonePlatform20" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( -50, -267 )
+
+[node name="StonePlatform18" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 572, -462 )
+
+[node name="StonePlatform21" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 572, -391 )
+
+[node name="StonePlatform22" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 573, -327 )
+
+[node name="StonePlatform23" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 571, -594 )
+
+[node name="StonePlatform24" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 572, -530 )
+
+[node name="StonePlatform25" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 785, -277 )
+
+[node name="StonePlatform26" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 785, -206 )
+
+[node name="StonePlatform27" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 786, -142 )
+
+[node name="StonePlatform28" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 784, -409 )
+
+[node name="StonePlatform29" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 785, -345 )
+
+[node name="StonePlatform30" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 1013, -466 )
+
+[node name="StonePlatform31" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 1013, -395 )
+
+[node name="StonePlatform32" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 1014, -331 )
+
+[node name="StonePlatform33" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 1012, -598 )
+
+[node name="StonePlatform34" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 1013, -534 )
+
+[node name="StonePlatform11" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 509, -105 )
+
+[node name="StonePlatform38" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 785, -68 )
+
+[node name="StonePlatform12" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 439, -105 )
+
+[node name="StonePlatform35" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 856, 6 )
+
+[node name="StonePlatform36" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 997, 6 )
+
+[node name="StonePlatform37" parent="Node2D" instance=ExtResource( 3 )]
+position = Vector2( 927, 6 )
+
+[node name="ObjectiveArea" type="Area2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveArea"]
+position = Vector2( 937, 510 )
+shape = SubResource( 1 )
+
+[node name="ObjectiveArea2" type="Area2D" parent="."]
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ObjectiveArea2"]
+position = Vector2( 211, 40 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="ObjectiveArea2"]
+position = Vector2( 621, 805 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="ObjectiveArea2"]
+position = Vector2( 819, -131 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="ObjectiveArea2"]
+position = Vector2( 1126, 460 )
+shape = SubResource( 4 )
+
+[connection signal="body_entered" from="ObjectiveArea" to="ObjectiveArea" method="_on_ObjectiveArea_body_entered"]
+[connection signal="body_entered" from="ObjectiveArea2" to="ObjectiveArea2" method="_on_ObjectiveArea2_body_entered"]
